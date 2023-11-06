@@ -27,7 +27,7 @@ func main() {
 			return
 		}
 
-		// Simulate order ID generation (you might want to use a database)
+		// Simulate order ID generation 
 		newOrder.ID = len(orders) + 1
 		newOrder.Status = "Created"
 
